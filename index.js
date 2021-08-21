@@ -1,7 +1,7 @@
     //funtion for memory,storage and delivery cost
     function Cost(doller,inputId){
         const variousCost = document.getElementById(inputId);
-        variousCostText = variousCost.innerText
+        const variousCostText = variousCost.innerText
         const cost  = doller;
         variousCost.innerText= cost;
     }
